@@ -98,6 +98,12 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="MainController.cs" />
+    <Compile Include="..\Shared\Rouble.cs">
+      <Link>Rouble.cs</Link>
+    </Compile>
+    <Compile Include="..\Shared\RoubleType.cs">
+      <Link>RoubleType.cs</Link>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
