@@ -23,7 +23,7 @@ namespace Social
 
 			View.BackgroundColor = UIColor.White;
 
-			_fbShare = new UIButton ();
+			_fbShare = new UIButton(UIButtonType.RoundedRect);
 			_fbShare.TouchUpInside += OnLoginClicked;
 			_fbShare.SetTitle("Share in Facebook", UIControlState.Normal);
 			_fbShare.SetTitleColor (UIColor.White, UIControlState.Normal);
