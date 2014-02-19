@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social", "IOs\Social.csproj", "{CC0EE67C-0932-4C64-A5D7-6714994CA602}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social_iOS", "IOs\Social_iOS.csproj", "{CC0EE67C-0932-4C64-A5D7-6714994CA602}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +27,6 @@ Global
 		{CC0EE67C-0932-4C64-A5D7-6714994CA602}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = IOs\Social.csproj
+		StartupItem = IOs\Social_iOS.csproj
 	EndGlobalSection
 EndGlobal
