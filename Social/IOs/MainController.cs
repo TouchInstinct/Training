@@ -49,7 +49,7 @@ namespace Social
 			if (FBDialogs.CanPresentShareDialog (shareParams))
 				PresentFacebookShareDialog (shareParams);
 			else
-				;
+				throw new Exception("Can't present share dialog"); // possibly there are no accounts
 		}
 
 		private void PresentFacebookShareDialog(FBShareDialogParams shareParams)

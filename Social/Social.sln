@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social", "IOs\Social.csproj", "{CC0EE67C-0932-4C64-A5D7-6714994CA602}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social_iOS", "IOs\Social_iOS.csproj", "{CC0EE67C-0932-4C64-A5D7-6714994CA602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Share_Android", "Android\Share_Android\Share_Android.csproj", "{20BC4B3C-F3B5-48C1-85A2-150254720EDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,18 @@ Global
 		AppStore|iPhone = AppStore|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.Release|iPhone.Build.0 = Release|Any CPU
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{20BC4B3C-F3B5-48C1-85A2-150254720EDB}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{CC0EE67C-0932-4C64-A5D7-6714994CA602}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{CC0EE67C-0932-4C64-A5D7-6714994CA602}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
 		{CC0EE67C-0932-4C64-A5D7-6714994CA602}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
@@ -27,6 +41,6 @@ Global
 		{CC0EE67C-0932-4C64-A5D7-6714994CA602}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = IOs\Social.csproj
+		StartupItem = Android\Share_Android\Share_Android.csproj
 	EndGlobalSection
 EndGlobal
