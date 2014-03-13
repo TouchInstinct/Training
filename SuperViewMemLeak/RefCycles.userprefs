@@ -1,0 +1,31 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina4.7.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RefCycles/MainController.cs">
+    <Files>
+      <File FileName="RefCycles/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="RefCycles/MainController.cs" Line="56" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="RefCycles" expanded="True">
+            <Node name="MainController.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RefCycles>
+    <ProfileHeapShotSettings_27CDebug Output="/var/folders/zp/6tv_g63d2qn78sgtswk126640000gn/T/profiler-output.mlpd" Zip="True" HeapshotMode="ondemand" HeapshotGCInterval="1" HeapshotTimeInterval="1000" Calls="False" Alloc="False" CallDepth="100" StatisticalSampling="False" SampingFrequency="1000" MaxFrames="8" Mode="Memory" />
+  </MonoDevelop.Ide.ItemProperties.RefCycles>
+</Properties>
